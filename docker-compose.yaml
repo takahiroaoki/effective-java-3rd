@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    image: openjdk:17.0.2
+    volumes:
+      - ./src:/src
+    working_dir: /src
+    tty: true
